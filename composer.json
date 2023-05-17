@@ -1,7 +1,7 @@
 {
-    "name": "valantic-spryker/open-ai",
+    "name": "valantic-spryker/glue-application",
     "type": "library",
-    "description": "OpenAI Client for spryker.",
+    "description": "Glue Application Valantic Spryker package",
     "license": "MIT",
     "require": {
         "php": ">=8.0",
