@@ -1,8 +1,8 @@
 # Open AI Spryker package
 
 [![Minimum PHP Version](https://img.shields.io/badge/php-%3E%3D%208.1-8892BF.svg)](https://php.net/)
-[![coverage report](https://gitlab.nxs360.com/packages/php/spryker/open-ai/badges/main/pipeline.svg)](https://gitlab.nxs360.com/packages/php/spryker/open-ai/-/pipelines?page=1&scope=all&ref=main)
-[![coverage report](https://gitlab.nxs360.com/packages/php/spryker/open-ai/badges/main/coverage.svg)](https://packages.gitlab-pages.nxs360.com/php/spryker/open-ai)
+[![coverage report](https://gitlab.nxs360.com/packages/php/spryker/glue-application/badges/main/pipeline.svg)](https://gitlab.nxs360.com/packages/php/spryker/glue-application/-/pipelines?page=1&scope=all&ref=main)
+[![coverage report](https://gitlab.nxs360.com/packages/php/spryker/glue-application/badges/main/coverage.svg)](https://packages.gitlab-pages.nxs360.com/php/spryker/glue-application)
 
 # Description
  - In Spryker default only header [{"key":"Accept-Language","value":"de_DE, de;q=0.9"}] is allowed  (https://docs.spryker.com/docs/scos/dev/feature-integration-guides/202212.0/glue-api/glue-api-spryker-core-feature-integration.html)
@@ -10,24 +10,8 @@
 
 # Example usage
  - 
-
-
- - https://gitlab.nxs360.com/packages/php/spryker/open-ai/-/blob/main/src/ValanticSpryker/Zed/OpenAi/Communication/Console/OpenAiConsole.php#L39
- - https://github.com/openai-php/client
-
 # Install
-- composer require the package `composer req valantic-spryker/open-ai:^1.0.4` (see https://gitlab.nxs360.com/groups/packages/php/spryker/-/packages)
-- add `'ValanticSpryker'` as first element to your `$config[KernelConstants::CORE_NAMESPACES]` 
-- configure your openai key in your config `$config[OpenAiConstants::OPENAI_API_KEY] = 'xxxxxx';` (https://platform.openai.com/account/api-keys)
-- `console propel:install`
-- `console transfer:generate`
-- load open-ai js in your backoffice twig (see `Zed/Gui/Presentation/Layout/layout.twig:5`)
-- `console twig:cache:warmer` 
-- add to your projects backoffice navigation.xml (see `src/config/Zed/navigation.xml:370`)
-- `console navigation:build-cache`
-- `console router:cache:warm-up:backoffice`
-- add `path.resolve('./vendor/valantic-spryker/')` to your JS webpack build dirs `frontend/zed/build.js:11`
-- build frontend (`npm run zed`)
+- see https://gitlab.nxs360.com/groups/packages/php/spryker/-/packages
 
 # Reference implementation
 - https://backoffice-de-demo.vcec.cloud/
@@ -52,14 +36,3 @@ XDEBUG:
 
 # use nodejs
  - docker run -it --rm --name my-running-script -v "$PWD":/data node:18 bash
-
-ToDo:
- - add list with useful prompts
- - refactor UI to native web components
- - add importer for demo prompts
- - add twig example
- - add generate product button
- - add generate customer button
- - add generate cms page button
- - add generate cms seo texts buttons
- - add more context to generate button (i.e. price, category, attributes)
