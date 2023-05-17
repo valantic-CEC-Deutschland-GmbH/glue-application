@@ -5,7 +5,7 @@
     "license": "MIT",
     "require": {
         "php": ">=8.0",
-        "spryker/glue-application": "^1.53"
+        "spryker/glue-application": ">=1.53"
     },
     "autoload": {
         "psr-4": {

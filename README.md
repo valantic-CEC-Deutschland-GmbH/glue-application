@@ -9,7 +9,8 @@
    - with this package we also allow passing de-DE
 
 # Example usage
- - 
+ -
+
 # Install
 - see https://gitlab.nxs360.com/groups/packages/php/spryker/-/packages
 
