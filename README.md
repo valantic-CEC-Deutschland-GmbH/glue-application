@@ -1,4 +1,4 @@
-# Open AI Spryker package
+# Glue Application Valantic Spryker package
 
 [![Minimum PHP Version](https://img.shields.io/badge/php-%3E%3D%208.1-8892BF.svg)](https://php.net/)
 [![coverage report](https://gitlab.nxs360.com/packages/php/spryker/glue-application/badges/main/pipeline.svg)](https://gitlab.nxs360.com/packages/php/spryker/glue-application/-/pipelines?page=1&scope=all&ref=main)
