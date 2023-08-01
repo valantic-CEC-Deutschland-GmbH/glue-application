@@ -9,9 +9,6 @@
 # Install
 - `composer require valantic-cec/glue-application`
 
-# Reference implementation
-- https://backoffice-de-demo.vcec.cloud/
-
 # HowTos Cli
 
 PHP Container: `docker run -it --rm --name my-running-script -v "$PWD":/data spryker/php:latest bash`
