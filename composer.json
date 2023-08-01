@@ -1,5 +1,5 @@
 {
-    "name": "valantic-cec/glue-application",
+    "name": "valantic-spryker/glue-application",
     "type": "library",
     "description": "Glue Application Valantic Spryker package",
     "license": "proprietary",
