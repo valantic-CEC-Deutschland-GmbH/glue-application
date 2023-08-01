@@ -7,7 +7,7 @@
    - with this package we also allow passing de-DE
 
 # Install
-- `composer require valantic-cec/glue-application`
+- `composer require valantic-spryker/glue-application`
 
 # HowTos Cli
 
