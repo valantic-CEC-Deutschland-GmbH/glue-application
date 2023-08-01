@@ -1,18 +1,13 @@
 # Glue Application Valantic Spryker package
 
 [![Minimum PHP Version](https://img.shields.io/badge/php-%3E%3D%208.1-8892BF.svg)](https://php.net/)
-[![coverage report](https://gitlab.nxs360.com/packages/php/spryker/glue-application/badges/main/pipeline.svg)](https://gitlab.nxs360.com/packages/php/spryker/glue-application/-/pipelines?page=1&scope=all&ref=main)
-[![coverage report](https://gitlab.nxs360.com/packages/php/spryker/glue-application/badges/main/coverage.svg)](https://packages.gitlab-pages.nxs360.com/php/spryker/glue-application)
 
 # Description
  - In Spryker default only header [{"key":"Accept-Language","value":"de_DE, de;q=0.9"}] is allowed  (https://docs.spryker.com/docs/scos/dev/feature-integration-guides/202212.0/glue-api/glue-api-spryker-core-feature-integration.html)
    - with this package we also allow passing de-DE
 
-# Example usage
- - https://gitlab.nxs360.com/team-lr/glue-api
-
 # Install
-- see https://gitlab.nxs360.com/groups/packages/php/spryker/-/packages
+- `composer require valantic-cec/glue-application`
 
 # Reference implementation
 - https://backoffice-de-demo.vcec.cloud/
